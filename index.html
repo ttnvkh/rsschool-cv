@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+        <header>
+            <div class="Avatar">
+                <img alt="myAvatar" src="myAvavtar.jpeg" width="200">
+            </div>
+            <h1>Vakhrusheva Tatyana</h1>
+            <h2>Future Front-End Developer</h2>
+            <nav>
+                <div class="Contacts">
+                    <ul>
+                        <li class="phoneNum"><a href="tel:+79817949764" target="_blank">Phone number: +7-981-794-97-64</a></li>
+                        <li class="e-mail"><a href="mailto:tatyanavakhrusheva3308@gmail.com" target="_blank">Mail: tatyanavakhrusheva3308@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h2>About me</h2>
+            <p>Hello!</p>
+            <p>My name is Tatyana Vakhrusheva, I'm 26 y.o. </p> 
+            <p>Some day I wanna become a Front-End developer, but now I'm working as QA engeneer.</p>
+            <h2>Education</h2>
+            <p>Saint-Petersburg Electrotecnical Univercity;</p>
+            <p>Master's degree at Computer sciense, 2019</p>
+            <h2>Skills</h2>
+            <ul>
+                <li>Git, Github</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+            </ul>
+            <h2>Languages</h2>
+            <ul>
+                <li>Russian: Native</li>
+                <li>English: Upper-Intermidiate</li>
+            </ul>
+            <h2>Code example</h2>
+            <pre>
+                <code>
+                    void loop() {
+                        int sensor_data = analogRead(SENSPIN);
+                        Serial.println("Moisture sensor: " + String(sensor_data));
+                        delay(100);
+                      }
+                </code>
+            </pre>
+        </main>
+        <footer>
+            <a class="github" href="https://github.com/ttnvkh" target="_blank">My Github</a>
+            <p>2022</p>
+            <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="RSSchool_item" width="73" height="26">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
